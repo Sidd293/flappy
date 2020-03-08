@@ -7,8 +7,12 @@ vel=0
 g=.5
 var sd
 j =200
-function setup() {
+function preload(){
   sd= loadSound('bgm.mp3')
+
+}
+function setup() {
+
   createCanvas(400, 400);
 bird=loadImage('bird.png')
   bg=loadImage('bg.JPG')
