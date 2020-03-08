@@ -45,7 +45,7 @@ if(x>400)
   
   if(i>x&&i<x+20&&(j>h ||j<h-100))
   { sd.stop
-  // exit();
+  exit();
    }
   if(i>x&&i<x+3)
     {
