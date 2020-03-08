@@ -18,7 +18,7 @@ vel=-10
 
 }
 function draw() {
-  sd.play
+  sd.play();
   background(220,j,x);
   image(bg,0,0,400,400)
 image(bird,i,j,30,30)
@@ -44,7 +44,7 @@ if(x>400)
   x+=3
   
   if(i>x&&i<x+20&&(j>h ||j<h-100))
-  { sd.stop
+  { sd.stop();
   exit();
    }
   if(i>x&&i<x+3)
