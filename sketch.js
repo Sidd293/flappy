@@ -5,10 +5,10 @@ x=0
 h=200
 vel=0
 g=.5
-var sd
+var sd;
 j =200
 function preload(){
-  sd= loadSound('bgm.mp3')
+  sd = loadSound("bgm.mp3")
 
 }
 function setup() {
@@ -16,13 +16,14 @@ function setup() {
   createCanvas(400, 400);
 bird=loadImage('bird.png')
   bg=loadImage('bg.JPG')
+sd.play();
 }
 function mousePressed(){
 vel=-10
 
 }
 function draw() {
-  sd.play();
+  
   background(220,j,x);
   image(bg,0,0,400,400)
 image(bird,i,j,30,30)
