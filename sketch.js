@@ -1,6 +1,7 @@
 i=200
 sco= 0
 hd=100
+fl=0
 x=0
 h=200
 vel=0
@@ -21,6 +22,7 @@ sd.play();
 function mousePressed(){
 g=.4
   vel=-12
+  fl==1
 
 }
 function draw() {
@@ -43,7 +45,7 @@ if(x>400)
     g=0
       vel=0
     }
-  else if(j<400)
+  else if(j<400&&fl==1)
     {
     g=.4
    }
