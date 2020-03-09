@@ -12,13 +12,13 @@ j =150
 function preload(){
   sd = loadSound("bgm.mp3")
   jmp= loadSound('Mario-jump-sound.mp3')
-
+bg=loadImage('bg.JPG')
 }
 function setup() {
 
   createCanvas(400, 400);
 bird=loadImage('bird.png')
-  bg=loadImage('bg.JPG')
+  
 sd.play();
 }
 function mousePressed(){
