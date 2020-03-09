@@ -22,7 +22,7 @@ sd.play();
 function mousePressed(){
 g=.4
   vel=-12
-  fl==1
+  fl=1
 
 }
 function draw() {
