@@ -4,7 +4,7 @@ hd=150
 x=0
 h=200
 vel=0
-g=.5
+g=.4
 var sd;
 j =200
 function preload(){
@@ -19,7 +19,7 @@ bird=loadImage('bird.png')
 sd.play();
 }
 function mousePressed(){
-vel=-10
+vel=-12
 
 }
 function draw() {
@@ -44,7 +44,7 @@ if(x>400)
     }
   else if(j<400)
     {
-    g=.5
+    g=.4
    }
   x+=3
   
