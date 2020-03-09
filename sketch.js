@@ -4,9 +4,9 @@ hd=150
 x=0
 h=200
 vel=0
-g=.4
+g=0
 var sd;
-j =200
+j =150
 function preload(){
   sd = loadSound("bgm.mp3")
 
@@ -19,7 +19,8 @@ bird=loadImage('bird.png')
 sd.play();
 }
 function mousePressed(){
-vel=-12
+g=.4
+  vel=-12
 
 }
 function draw() {
