@@ -21,7 +21,7 @@ sd.play();
 }
 function mousePressed(){
 g=.4
-  vel=-12
+  vel=-10
   fl=1
 
 }
