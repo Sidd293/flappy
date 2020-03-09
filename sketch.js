@@ -7,9 +7,11 @@ h=200
 vel=0
 g=0
 var sd;
+var jmp;
 j =150
 function preload(){
   sd = loadSound("bgm.mp3")
+  jmp= loadSound('Mario-jump-sound.mp3')
 
 }
 function setup() {
@@ -23,7 +25,7 @@ function mousePressed(){
 g=.4
   vel=-10
   fl=1
-
+jmp.play();
 }
 function draw() {
   
