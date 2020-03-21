@@ -28,7 +28,7 @@ g=.4
 jmp.play();
 }
 function draw() {
-  
+scale(2)
   background(220,j,x);
   image(bg,0,0,400,400)
 image(bird,i,j,30,30)
