@@ -16,7 +16,7 @@ bg=loadImage('bg.JPG')
 }
 function setup() {
 
-  createCanvas(400, 400);
+  createCanvas(800, 800);
 bird=loadImage('bird.png')
   
 sd.play();
