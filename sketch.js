@@ -18,12 +18,12 @@ function setup() {
 
   createCanvas(800, 800);
 bird=loadImage('bird.png')
-  
+  bird.size(20,20);
 sd.play();
 }
 function mousePressed(){
 g=.4
-  vel=-10
+  vel=-5
   fl=1
 jmp.play();
 }
