@@ -18,7 +18,7 @@ function setup() {
 
   createCanvas(800, 800);
 bird=loadImage('bird.png')
-  bird.size(20,20);
+  
 sd.play();
 }
 function mousePressed(){
