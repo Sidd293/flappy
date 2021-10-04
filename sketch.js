@@ -22,8 +22,8 @@ bird=loadImage('bird.png')
 sd.play();
 }
 function mousePressed(){
-g=.4
-  vel=-5
+g=.2
+  vel=-10
   fl=1
 jmp.play();
 }
